@@ -1,0 +1,5 @@
+events: [
+  { "date": "7/11/2017", "time": "7pm", "bands": "Betty Rage, Thought Riot, Scattered Fall", "location": "The Caffein Den", "cost": "$5", "link": "link" },
+  { "date": "7/02/2017", "time": "5pm", "bands": "The Woods, Southpaw, The Evening Episode", "location": "The Blackwater Cafe", "cost": "$5", "link": "link" },
+  { "date": "5/21/2017", "time": "7pm", "bands": "Cars and Snakes, The Harmonics, Audry K, The Cookie Factory", "location": "Jitterz Cafe", "cost": "Free!", "link": "www.jerkindie.com" }
+]

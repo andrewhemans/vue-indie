@@ -1,0 +1,204 @@
+  body {
+  margin: 0px;
+}
+#app {
+  font-family: 'Courier-new', Courier;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+#logo {
+  width: 300px;
+}
+.vuetable {
+  width: 100%;
+}
+.navbar-list {
+  margin: 0 auto;
+}
+.navbar-item {
+  text-align: center;
+}
+
+.spacer {
+  height: 65px;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #222;
+  transition: color 0.25s ease-out;
+  cursor: pointer;
+}
+a:hover {
+  color: #777;
+}
+
+table {
+  width: 100%
+}
+
+.vuetable th.sortable {
+  color: #222;
+  cursor: pointer;
+  transition: color 0.25s ease-out;
+}
+
+.vuetable th.sortable:hover {
+  color: #777;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #777;
+  outline: 0; }
+
+
+/*Pagination*/
+
+.ui.menu .item {
+  position: relative;
+  vertical-align: middle;
+  line-height: 1;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background: 0 0;
+  padding: .92857143em 1.14285714em;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.ui.menu .item.active {
+  font-weight: 700;
+  text-decoration: underline;
+  /*border: #000 1px solid;*/
+}
+
+.ui.pagination.menu .item {
+  min-width: 3em;
+  text-align: center;
+}
+.ui.menu .item.disabled, .ui.menu .item.disabled:hover {
+  cursor: default;
+  background-color: transparent!important;
+  color: rgba(40, 40, 40, .3);
+}
+.navbar {
+  display: none;
+}
+
+/* Larger than phone */
+
+@media (min-width: 550px) {
+  .header {
+    margin-top: 18rem;
+  }
+  .value-props {
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+  }
+  .value-img {
+    margin-bottom: 1rem;
+  }
+  .example-grid .column, .example-grid .columns {
+    margin-bottom: 1.5rem;
+  }
+  .docs-section {
+    padding: 6rem 0;
+  }
+  .example-send-yourself-copy {
+    float: right;
+    margin-top: 12px;
+  }
+  .example-screenshot-wrapper {
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    left: 0;
+    max-height: none;
+  }
+}
+
+.right.icon {
+  content: ">";
+}
+
+.vuetable-pagination {
+  background: none;
+}
+
+.events-title {
+  margin-top: 25px;
+}
+
+.bands-title {
+  margin-top: 25px;
+}
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+  /* Navbar */
+  .navbar+.docs-section {
+    border-top-width: 0;
+  }
+  .navbar > .container {
+    margin: 0 auto;
+    width: 444px;
+  }
+  .navbar, .navbar-spacer {
+    display: block;
+    width: 100%;
+    height: 6.5rem;
+    background: #fff;
+    z-index: 99;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  .navbar-spacer {
+    display: none;
+  }
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0;
+  }
+  .navbar-item {
+    position: relative;
+    float: left;
+    margin-bottom: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222;
+  }
+  .navbar-link.active {
+    color: #eee;
+  }
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .has-docked-nav .navbar-spacer {
+    display: block;
+  }
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar>.container {
+    width: 80%;
+  }
